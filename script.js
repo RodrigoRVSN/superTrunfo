@@ -1,6 +1,6 @@
 var cartaRodrigo = {
     nome: "Roronoa Zoro",
-    som: "/audio/santoryo.mp3",
+    som: "/Audio/santoryo.mp3",
     imagem: "https://i.servimg.com/u/f61/20/16/65/61/tm/0f620510.jpg",
     atributos: {
         ataque: 90,
@@ -10,7 +10,7 @@ var cartaRodrigo = {
 }
 var cartaGabrielly = {
     nome: "Ace",
-    som: "/audio/ace.mp3",
+    som: "/Audio/ace.mp3",
     imagem: "https://pa1.narvii.com/6748/e6aa152b28a441300627a5ad163a23d5ba05950e_128.gif",
     atributos: {
         ataque: 30,
@@ -21,7 +21,7 @@ var cartaGabrielly = {
 
 var cartaMae = {
     nome: "Naruto",
-    som: "/audio/rasengan.mp3",
+    som: "/Audio/rasengan.mp3",
     imagem: "https://i.pinimg.com/originals/98/26/16/98261691bf06ecf67815ff95eee0a87c.jpg",
     atributos: {
         ataque: 60,
@@ -32,7 +32,7 @@ var cartaMae = {
 
 var cartaTanjiro = {
     nome: "Tanjiro",
-    som: "/audio/tanjiro.mp3",
+    som: "/Audio/tanjiro.mp3",
     imagem: "https://bot.to/wp-content/uploads/2020/09/tanjiro-music_5f6faced9baaa.png",
     atributos: {
         ataque: 80,
@@ -42,7 +42,7 @@ var cartaTanjiro = {
 }
 var cartaDeku = {
     nome: "Midoryia (Deku)",
-    som: "/audio/deku.mp3",
+    som: "/Audio/deku.mp3",
     imagem: "https://cdn140.picsart.com/338892408045201.gif?to=crop&r=256",
     atributos: {
         ataque: 85,
@@ -52,7 +52,7 @@ var cartaDeku = {
 }
 var cartaNezuko = {
     nome: "Nezuko",
-    som: "/audio/nezuko.mp3",
+    som: "/Audio/nezuko.mp3",
     imagem: "https://pa1.narvii.com/7340/7855aa402bbbbbcc447bb012374399148d801fcer1-410-498_128.gif",
     atributos: {
         ataque: 60,
@@ -62,7 +62,7 @@ var cartaNezuko = {
 }
 var cartaBarba = {
     nome: "Barba Branca",
-    som: "/audio/barba.mp3",
+    som: "/Audio/barba.mp3",
     imagem: "https://c-sf.smule.com/rs-s40/arr/20/36/32f16fe2-0f90-4eae-accc-bb5f4fe982b1.jpg",
     atributos: {
         ataque: 100,
@@ -72,7 +72,7 @@ var cartaBarba = {
 }
 var cartaZenitsu = {
     nome: "Zenitsu",
-    som: "/audio/zenitsu.mp3",
+    som: "/Audio/zenitsu.mp3",
     imagem: "https://steamuserimages-a.akamaihd.net/ugc/769475109201589972/E71823B38077FCE158B7083A07263E1D3FC775D6/",
     atributos: {
         ataque: 85,
