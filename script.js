@@ -1,6 +1,6 @@
 var cartaRodrigo = {
     nome: "Roronoa Zoro",
-    som: "/audios/santoryo.mp3",
+    som: "/audio/santoryo.mp3",
     imagem: "https://i.servimg.com/u/f61/20/16/65/61/tm/0f620510.jpg",
     atributos: {
         ataque: 90,
