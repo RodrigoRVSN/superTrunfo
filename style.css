@@ -99,6 +99,7 @@ h2 {
   font-weight: bolder;
   padding: 1rem;
   border: 2px solid black;
+  border-radius: 3rem;
   background-color: blue;
 }
 
