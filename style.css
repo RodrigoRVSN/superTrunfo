@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 .container {
   text-align: center;
   padding: 20px;
@@ -17,7 +18,19 @@ body {
   margin: 5px 0;
 }
 
-button, .button-jogar {
+button:disabled{
+  opacity: 0.3;
+}
+
+button:enabled:hover{
+  transition: 0.2s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 2px solid rgb(42, 131, 20);
+}
+
+button {
+  width: 20rem;
   background-color: rgb(199, 199, 60);
   color: rgb(42, 131, 20);
   padding: .8rem 1.5rem;
@@ -25,6 +38,7 @@ button, .button-jogar {
   border-radius: 20px;
   border: none;
   font-size: 1.5rem;
+  align-self: center;
 }
 
 h2 {
@@ -43,8 +57,8 @@ h2 {
   position: relative;
   background-size: 350px 300px;
   background-repeat: no-repeat;
-  background-position-x: 5px;
-  background-position-y: 10px;
+  background-position-x: 10px;
+  background-position-y: 5px;
   border-radius: 33px;
 }
 
@@ -74,6 +88,10 @@ h2 {
   margin: 20px 10px;
 }
 
+.carta-status p {
+  margin-bottom: 2rem;
+}
+
 .resultado-final {
   color: white;
   font-size: 2rem;
@@ -96,8 +114,7 @@ form {
 .wrapper {
   margin-top: -5rem;
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  flex-direction: column;
 }
 
 .carta-subtitle {
@@ -115,6 +132,18 @@ form {
   justify-content: space-between;
 }
 
+#placar, #quantidade-cartas {
+  color: white;
+  font-size: 1rem;
+}
+
 .carta-status p {
   margin-bottom: 2rem;
+}
+
+#resultado{
+  width: 90vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
